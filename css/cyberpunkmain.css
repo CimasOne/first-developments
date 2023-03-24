@@ -1,0 +1,127 @@
+.block1{
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.block1 .menu{
+  width: 200px;
+}
+
+.block1 .menu a{
+  display: block;
+  text-decoration: none;
+  color: aqua;
+  font-size: 1.125em;
+  margin-bottom: 8px;
+  padding: 12px 25px;
+}
+
+.block1 .menu a:hover,
+.block1 .menu a.active {
+color: rgb(255, 240, 254);
+font-weight: bold;
+background-color: rgb(180, 115, 115);
+border-radius: 20px;
+}
+
+.block1 .items .sort p{
+color: rgba(14, 7, 7, 0.616);
+font-size: 1.125em;
+margin-top: 12px;
+margin-left: 25px;
+}
+
+.block1 .items .sort{
+  margin-bottom: 25px;
+}
+
+.block1 .items .boxes{
+  flex-wrap: wrap;
+}
+
+.block1 .items .boxes .box{
+  margin-bottom: 28px;
+}
+
+.block1 .items{
+  padding-left: 25px;
+}
+.block1 .items .sort p a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  width: 40px;
+  background: url('../images/strelka.jpg') no-repeat;
+  background-position: 100% 50%;
+}
+
+.block1 .items .sort p a:hover,
+.block1 .items .sort p a.active{
+  background: url('../images/vniz.jpg') no-repeat;
+  color: rgb(252, 145, 5);
+  background-position: 100% 50%;
+}
+
+.box figure figcaption{
+padding-left: 0px;
+color: rgb(81, 255, 0);
+}
+
+.box figure figcaption p{
+  font-size: 0.900em;
+  
+}
+
+.box .title{
+  color: rgb(2, 250, 43);
+  font-size: 0.900em;
+  padding-left: 23px;
+  margin-top: 10px;
+}
+
+.box figure figcaption p span{
+  font-size: 1.250em;
+  font-weight: 600;
+  padding-left: 23px;
+}
+
+.box button{
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: rgb(82, 56, 1);
+  margin-top: 15px;
+  border: none;
+  font-size: 1em;
+}
+
+.box button:hover{
+cursor: pointer;
+}
+
+.block1 .items .pogination{
+  text-align: center;
+}
+
+.block1 .items .pogination a{
+  margin: 0 5px;
+  color: rgb(121, 5, 5);
+}
+
+.block1 .items .pogination a:hover
+.block1 .items .pogination a.active {
+  color: blueviolet;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.news h2{
+  text-align: center;
+  margin: 70px 0;
+  color: black;
+  font-size: 1.875em;
+  font-weight: 600;
+}
+

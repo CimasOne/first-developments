@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: BruceForeverRegular, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../BruceForeverRegular-X3jd2.ttf);
+}
+
+@font-face {
+    font-family: CombackHomeRegular, Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 600;
+    src: url(..font/CombackHomeRegular-jEMd9.ttf);
+}
+
+
+.container-fluid{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+max-width: 1140px;
+margin: 0 auto;
+}
+
+body {
+    font-family: BruceForeverRegular;
+    width: 100%;
+    font-size: 16px;
+}
+ header > .container{
+    padding: 40px 20px;
+ }
+
+ header .container .menu a{
+font-size: 0.875em ;
+text-decoration: none;
+color: black;
+margin: 0 20px;
+ }
+ header .container .menu a:hover,
+ header .container .menu a.active{
+    color: rgb(47, 0, 255);
+    font-weight: 700;
+    padding-bottom: 7px;
+    border-bottom: 3px solid rgb(47, 0, 255);
+ }
+ header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid red;
+    border-radius: 50px;
+ }
+ header form div input[type='text']{
+    border: none;
+    margin-right: 10px;
+ }
+
+ header .cart img{
+    margin-right: 7px;
+ }
+
+  header form div input[type='submit']{
+    background: url(../images/poisk.jpg);
+    background-size: cover;
+    width: 20px;
+    height: 15px;
+    border: none;
+  }
+  header form div input[type='submit']:hover{
+    cursor: pointer;
+  }
+
+  header .cart div a {
+    color: aquamarine;
+    font-size: 0.750em;
+  }
+
+  header .cart div p {
+    font-size: 0.900em;
+    color: brown;
+  }
+footer{
+    background-color: rgba(76, 43, 226, 0.459);
+    padding-top: 50px;
+    padding-bottom: 20px;
+} 
+
+footer .container{
+    align-items: flex-start;
+}
+
+
+footer .left figure figcaption{
+    color: aqua;
+    margin-top: 20px;
+    font-size: 0.875em;
+}
+
+footer .left{
+    align-items: flex-start;
+}
+footer .left nav a{
+    margin-left: 100px;
+}
+footer .left nav a{
+    color: rgb(255, 238, 0);
+    display: block;
+    font-size: 0.875em;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a :hover, footer .left nav a.active{
+    color: rgb(255, 0, 0);
+}
+
+footer .right form div{
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+footer .right form div input[type='text']{
+padding: 8px 0;
+width: 100%;
+background: none;
+border: none;
+}
+
+footer .right form div input[type='submit']{
+    width: 31px;
+    height: 21px;
+    background: url('../images/poisk.jpg');
+    background-size: cover;
+    border: none;
+}
+
+footer .right > div{
+    text-align: center;
+    margin-top: 33px;
+    margin-bottom: 20px;
+    color: rgb(255, 238, 0);
+}
+
+footer .right .box{
+    width: 110px;
+    height: 65px;   
+    display: inline-block;
+    margin-top: 16px;
+    margin: 16px 16px 0px;
+}
+
+footer .right .insta{
+    background: url('../images/cyberpunk/kyrit.jpg') no-repeat;
+    background-size: cover;
+}
+
+footer .right .insta:hover{
+    background: url(../images/cyberpunk/daved+luci.jpg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vk{
+    background: url('../images/cyberpunk/proval.jpg') no-repeat;
+    background-size: cover;
+}
+
+footer .right .vk:hover{
+    background: url(../images/cyberpunk/daved+luci01.jpg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .tg{
+    background: url('../images/cyberpunk/luci02.jpg') no-repeat;
+    background-size: cover;
+}
+
+footer .right .tg:hover{
+    background: url(../images/cyberpunk/kaif.jpeg) no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .copyrights{
+    text-align: center;
+    color: black;
+    font-size: 0.890em;
+    margin-top: 60px;
+} 

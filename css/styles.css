@@ -1,0 +1,41 @@
+.mainBox {
+    width: 100%;
+    background: aqua;
+}
+.mainBox .box{
+    width: 400px;
+    height: 200px;
+}
+.boxRed{
+    background: red;
+}
+.boxGreen{
+    background: green;
+}
+.boxBlue{
+    background: blue;
+}
+input[type='text'],input[type='submit']{
+    height: 50px;
+}
+p[data-text=red]{
+    background: red;
+}
+p[data-text="green"]{
+    color: green;
+}
+div[name=qwe],[name=zxc]{
+    height: 300px;
+    width: 300px;
+}
+div[class=block1]{
+     background: blue;
+     padding-top: 30px;
+     padding-left: 30px;
+     padding-right: 30px;
+     padding-bottom: 30px;
+     margin: 50px;
+}
+div[class=block2]{
+    background: green;
+}
