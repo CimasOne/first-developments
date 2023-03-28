@@ -1,0 +1,59 @@
+.header-logo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 74px;
+    line-height: 66px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    margin: auto 20px;
+}
+
+.header-text{
+    font-family: 'Open Sans';
+    font-size: 55px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 254px;
+    width: 878px
+}
+
+.header-subtext{
+    border:solid;
+    border-radius: 40px;
+    width: 197px;
+    text-align: center;
+}
+
+.header-subtext a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    text-decoration: none;
+    color: black;
+    padding: 11px 14px;
+}
+
+.header-img{
+    margin-top: 150px;
+}
+
+.header-inner{
+    display: flex;
+}
+
+.iphone1{
+    position: absolute;
+    z-index: 999;
+    right: 95px;
+    bottom: 150px;
+}
+
+.iphone2{
+    position: absolute;
+    z-index: 998;
+    right: 20px;
+}
