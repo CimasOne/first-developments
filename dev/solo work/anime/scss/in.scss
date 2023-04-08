@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixins";
+
+.qwe{
+    @include link(black,red,green,blue);
+}
+
+.header{
+    @include link(black,red,green,blue);
+}
+
+.block1{
+background-color: $bgcolor;
+border: $border;
+width: $blockwidth;
+margin-bottom: 30px;
+height: 200px;
+}
+
+.block2{
+background-color: $bgcolor;
+border: $border;
+width: $blockwidth;
+margin-bottom: 30px;
+height: 200px;
+}
+
+.block3{
+background-color: $bgcolor;
+border: $border;
+width: $blockwidth;
+margin-bottom: 30px;
+height: 200px;
+}
+
+.line
+{@include fontSize(300,$color);
+    padding: 30px;
+    li {
+        width: 100%;
+        float: left;
+        margin-right: 10px;
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        &:hover{
+            color: $color;
+        }
+    }
+}
+
+.gjvjubnt{
+    @include fontSize (900,$color);
+}
